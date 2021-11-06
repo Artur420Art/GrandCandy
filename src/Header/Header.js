@@ -10,6 +10,7 @@ import {IoMdSearch} from "react-icons/io"
 import {HiOutlineChevronDown} from "react-icons/hi"
 import {GrCart} from "react-icons/gr"
 import {AiOutlineMenu} from "react-icons/ai"
+import {NavLink} from "react-router-dom";
 
 const Header = () => {
     const [opening, setOpening] = useState(false);
@@ -23,6 +24,7 @@ const Header = () => {
     const [burgOpen, setBurgOpen] = useState(false);
     const [isBurgOpening, setIsBurgOpening] = useState(false);
     const [prodOpen, setProdOpen] = useState(false)
+    const [opacity, setOpacity] = useState(0)
     // const styleBurg = {
     //     width: BurgWidth +"px"
     // }
@@ -36,11 +38,13 @@ const Header = () => {
     }
     const styleHeight = {
         height: height + 'px',
+        opacity: opacity
     }
 
     function openSearchPopup() {
         setTimeout(() => {
             setHeight(250);
+            setOpacity(1);
         }, 200)
         setPopup(true);
         setCardOut(!cardOut);
@@ -53,6 +57,7 @@ const Header = () => {
         setTimeout(() => {
             setPopup(false);
         }, 800)
+        setOpacity(0);
         setHeight(0);
     }
 
@@ -188,8 +193,8 @@ const Header = () => {
                         <div className='ul-menu'>
                             <ul>
                                 <li className='active-menu'>Home</li>
-                                <li>Products
-
+                                <li>
+                                    <NavLink className="neavprod" to={'/product'}>Products</NavLink>
                                 </li>
                                 <li>Abouts</li>
                                 <li>Stores</li>

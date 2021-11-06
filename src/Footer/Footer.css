@@ -96,6 +96,12 @@ footer li {
 }
 
 @media only screen and (max-width: 1030px) {
+    .nav-products{
+        display: none;
+    }
+    .products-categories-container{
+        width: 100%!important;
+    }
     .item-menu>div>ul>li {
         font-size: 10px!important;
     }

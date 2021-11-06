@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.productitems {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.item-cat {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px 0px 20px 10px;
+}
+.nav-products{
+    width: 17%;
+}
+.items-nav-cat a{
+    color: black;
+    text-decoration: none;
+}
+.items-nav-cat {
+    width: 100%;
+}
+.flex-categories{
+    display: flex;
+    justify-content: space-between;
+}
+.heading-categories{
+    padding-top:50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-categories>div>a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #676767;
+    padding-left:7px;
+    font-family: Circle, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.link-color{
+    color: #8b004f !important;
+}
+.choose-filtr{
+    width: 85px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 18px;
+    color: #676767;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sort-filter{
+    border: 1px ridge white;
+    position: absolute;
+    top: 260px;
+    right: 120px;
+    background-color: white;
+}
+.sort-filter>div{
+    padding: 10px;
+}
+.products-categories-container{
+    width: 80%;
+}
+.categories-pagination{
+    display: flex;
+    justify-content: center;
+}
+.categories-pagination{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.active-nav-cat {
+    background-image: url(https://web.grandcandy.am/static/media/rectangle.88d1c97f.png);
+    background-size: contain;
+    background-position: 111%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 52px rgb(55 58 101 / 13%);
+}
+.burg-categories{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    paddint-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.categories-navs{
+    width: 90%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background-color: white;
+    transition: 1s;
+    z-index: 99999999999999999999999999999;
+    padding-top: 100px;
+}
+.categories-navs>div{
+    position: absolute;
+    width: 300px;
+}
+.categories-navs>span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}

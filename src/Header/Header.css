@@ -78,6 +78,10 @@ header {
     display: flex;
     align-items: center;
 }
+.neavprod{
+    color: black;
+    text-decoration: none;
+}
 .web-{
     padding: 10px 61px;
     margin: 50px;

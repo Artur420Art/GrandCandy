@@ -108,13 +108,10 @@ const Product = () => {
         <div className="Products">
             <h1 className='title'>Most popular products</h1>
             <div className="items-product">
-
                 {prod.map((item) => (
                     <ProductItem title={item.name} image={item.img}
                                  descriptions={item.descriptions} price={item.price}/>
                 ))}
-
-
             </div>
         </div>
     )
