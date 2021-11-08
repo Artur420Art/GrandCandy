@@ -1,11 +1,12 @@
 import {GrCart} from "react-icons/gr";
+import "./ProductItem.css"
 
 const ProductsCategories = (props) => {
 
 
     function ProductItem(props) {
         return (
-            <div className="item-product">
+            <div className="item-product-cat">
                 <img src={props.image} alt=""/>
                 <div className="product-title">
                     {props.title}

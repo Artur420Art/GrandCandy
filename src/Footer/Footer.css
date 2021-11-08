@@ -94,11 +94,21 @@ footer li {
 .footer-right > span {
     color: #404040bf;
 }
+@media only screen and (max-width: 2450px)  {
+   .burg-categories>span{
+       display: none;
+   }
+}
 
 @media only screen and (max-width: 1030px) {
-    .nav-products{
+    .nav-products {
         display: none;
     }
+
+    .burg-categories > span {
+        display: block;
+    }
+
     .products-categories-container{
         width: 100%!important;
     }

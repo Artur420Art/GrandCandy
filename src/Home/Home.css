@@ -122,7 +122,17 @@
 
 /*top products page*/
 .item-product {
-    width: calc(25% - 40px);
+    width: calc(20% - 40px);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 13px rgb(0 0 0 / 16%);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}.item-product-cat{
+    width: calc(24% - 40px);
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 3px 13px rgb(0 0 0 / 16%);
