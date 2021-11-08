@@ -131,7 +131,8 @@
     flex-direction: column;
     justify-content: space-between;
 
-}.item-product-cat{
+}
+.item-product-cat{
     width: calc(24% - 40px);
     padding: 10px;
     border-radius: 10px;
@@ -140,7 +141,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .product-title{
     margin-top: 15px;

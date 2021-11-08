@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a47a424-f885-45a8-8dc4-eb668302a755" name="Changes" comment="">
+    <list default="true" id="8a47a424-f885-45a8-8dc4-eb668302a755" name="Changes" comment="prod page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer/Footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductItem/ProductItem.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductItem/ProductItem.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductItem/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductItem/ProductItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ProductItem/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProductItem/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +60,16 @@
       <workItem from="1636037727237" duration="592000" />
       <workItem from="1636095713063" duration="10037000" />
       <workItem from="1636188391394" duration="11066000" />
-      <workItem from="1636362067717" duration="3108000" />
+      <workItem from="1636362067717" duration="4862000" />
     </task>
+    <task id="LOCAL-00001" summary="prod page">
+      <created>1636367063417</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1636367063417</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +86,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="prod page" />
+    <option name="LAST_COMMIT_MESSAGE" value="prod page" />
   </component>
 </project>
